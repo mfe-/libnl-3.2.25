@@ -1,1 +1,27 @@
+# Ignore build directories
+lib/.*/
+build/
+lib/.libs/
+lib/.deps/
+lib/genl/.deps/
+
+# Ignore temporary files
+*.tmp
+*.log
+*.bak
+
+# Ignore compiled object files
+*.o
 *.lo
+
+# Ignore dependency files
+*.d
+
+# Ignore generated files
+*.generated.c
+*.generated.h
+
+# Ignore editor-specific files
+*.swp
+*.swo
+*~
