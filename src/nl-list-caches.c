@@ -9,6 +9,13 @@
  * Copyright (c) 2003-2009 Thomas Graf <tgraf@suug.ch>
  */
 
+#include <sys/types.h> 
+#include <linux/types.h>
+typedef __u32 u32;
+typedef __u16 u16;
+typedef __u8 u8;
+typedef __u64 u64;
+typedef __u16 __sum16;
 #include <netlink-private/netlink.h>
 #include <netlink/cli/utils.h>
 

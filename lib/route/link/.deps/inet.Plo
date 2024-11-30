@@ -1,1 +1,417 @@
-# dummy
+route/link/inet.lo: route/link/inet.c /usr/include/sys/types.h \
+ /c/opt/gcc-4.6.0/bin/../lib/gcc/sparc-unknown-linux-gnu/4.6.0/include-fixed/features.h \
+ /usr/include/sys/cdefs.h /usr/include/gnu/stubs.h \
+ /usr/include/bits/types.h /usr/include/bits/wordsize.h \
+ /c/opt/gcc-4.6.0/bin/../lib/gcc/sparc-unknown-linux-gnu/4.6.0/include/stddef.h \
+ /usr/include/bits/typesizes.h /usr/include/time.h /usr/include/endian.h \
+ /usr/include/bits/endian.h /usr/include/sys/select.h \
+ /usr/include/bits/select.h /usr/include/bits/sigset.h \
+ /usr/include/bits/time.h /usr/include/sys/sysmacros.h \
+ /usr/include/bits/pthreadtypes.h /usr/include/bits/sched.h \
+ /usr/include/linux/types.h /usr/include/linux/posix_types.h \
+ /usr/include/linux/stddef.h /usr/include/linux/compiler.h \
+ /usr/include/asm/posix_types.h /usr/include/asm/types.h \
+ ../include/netlink-private/netlink.h /usr/include/stdio.h \
+ /usr/include/libio.h /usr/include/_G_config.h \
+ /c/opt/gcc-4.6.0/bin/../lib/gcc/sparc-unknown-linux-gnu/4.6.0/include-fixed/wchar.h \
+ /usr/include/bits/wchar.h /usr/include/gconv.h \
+ /c/opt/gcc-4.6.0/bin/../lib/gcc/sparc-unknown-linux-gnu/4.6.0/include/stdarg.h \
+ /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+ /usr/include/bits/stdio.h /usr/include/errno.h /usr/include/bits/errno.h \
+ /usr/include/linux/errno.h /usr/include/asm/errno.h \
+ /usr/include/asm-generic/errno-base.h /usr/include/stdlib.h \
+ /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h \
+ /usr/include/xlocale.h /usr/include/alloca.h /usr/include/string.h \
+ /usr/include/bits/string.h \
+ /c/opt/gcc-4.6.0/bin/../lib/gcc/sparc-unknown-linux-gnu/4.6.0/include-fixed/bits/string2.h \
+ /usr/include/unistd.h /usr/include/bits/posix_opt.h \
+ /usr/include/bits/environments.h /usr/include/bits/confname.h \
+ /usr/include/getopt.h /usr/include/fcntl.h /usr/include/bits/fcntl.h \
+ /c/opt/gcc-4.6.0/bin/../lib/gcc/sparc-unknown-linux-gnu/4.6.0/include-fixed/sys/stat.h \
+ /usr/include/bits/stat.h /usr/include/math.h \
+ /c/opt/gcc-4.6.0/bin/../lib/gcc/sparc-unknown-linux-gnu/4.6.0/include-fixed/bits/huge_val.h \
+ /usr/include/bits/nan.h \
+ /c/opt/gcc-4.6.0/bin/../lib/gcc/sparc-unknown-linux-gnu/4.6.0/include-fixed/bits/mathdef.h \
+ /usr/include/bits/mathcalls.h /usr/include/bits/mathinline.h \
+ /usr/include/ctype.h /usr/include/sys/socket.h /usr/include/sys/uio.h \
+ /usr/include/bits/uio.h /usr/include/bits/socket.h \
+ /c/opt/gcc-4.6.0/bin/../lib/gcc/sparc-unknown-linux-gnu/4.6.0/include-fixed/limits.h \
+ /c/opt/gcc-4.6.0/bin/../lib/gcc/sparc-unknown-linux-gnu/4.6.0/include-fixed/syslimits.h \
+ /usr/include/limits.h /usr/include/bits/posix1_lim.h \
+ /usr/include/bits/local_lim.h /usr/include/linux/limits.h \
+ /usr/include/bits/posix2_lim.h /usr/include/bits/xopen_lim.h \
+ /usr/include/bits/sockaddr.h /usr/include/asm/socket.h \
+ /usr/include/asm/sockios.h /usr/include/inttypes.h \
+ /c/opt/gcc-4.6.0/bin/../lib/gcc/sparc-unknown-linux-gnu/4.6.0/include/stdint.h \
+ /c/opt/gcc-4.6.0/bin/../lib/gcc/sparc-unknown-linux-gnu/4.6.0/include-fixed/stdint.h \
+ /usr/include/assert.h /usr/include/search.h /usr/include/arpa/inet.h \
+ /usr/include/netinet/in.h /usr/include/bits/in.h \
+ /usr/include/bits/byteswap.h /usr/include/netdb.h \
+ /usr/include/rpc/netdb.h /usr/include/bits/siginfo.h \
+ /usr/include/bits/netdb.h defs.h ../include/linux/if.h \
+ ../include/linux/if_arp.h /usr/include/linux/netdevice.h \
+ ../include/linux/if_ether.h /usr/include/linux/if_packet.h \
+ /usr/include/linux/ethtool.h ../include/linux/pkt_sched.h \
+ ../include/linux/pkt_cls.h ../include/linux/gen_stats.h \
+ ../include/linux/ip_mp_alg.h /usr/include/linux/atm.h \
+ /usr/include/linux/atmapi.h /usr/include/linux/atmsap.h \
+ /usr/include/linux/atmioc.h /usr/include/asm/ioctl.h \
+ ../include/linux/ip.h /usr/include/asm/byteorder.h \
+ /usr/include/linux/byteorder/big_endian.h \
+ /usr/include/linux/byteorder/swab.h \
+ /usr/include/linux/byteorder/generic.h ../include/linux/ipv6.h \
+ ../include/linux/snmp.h /usr/include/pthread.h /usr/include/sched.h \
+ /usr/include/signal.h /usr/include/bits/initspin.h \
+ /usr/include/bits/sigthread.h ../include/netlink/netlink.h \
+ /usr/include/sys/poll.h /usr/include/bits/poll.h /usr/include/sys/time.h \
+ ../include/netlink/netlink-compat.h ../include/linux/netlink.h \
+ /usr/include/linux/socket.h ../include/linux/rtnetlink.h \
+ ../include/linux/if_link.h ../include/linux/if_addr.h \
+ ../include/linux/neighbour.h ../include/linux/genetlink.h \
+ ../include/linux/netfilter/nfnetlink.h \
+ ../include/linux/netfilter/nfnetlink_compat.h /usr/include/netinet/tcp.h \
+ ../include/netlink/version.h ../include/netlink/errno.h \
+ ../include/netlink/types.h ../include/netlink/handlers.h \
+ ../include/netlink/netlink-kernel.h ../include/netlink/socket.h \
+ ../include/netlink/object.h ../include/netlink/utils.h \
+ ../include/netlink/list.h ../include/netlink/cache.h \
+ ../include/netlink/msg.h ../include/netlink/attr.h \
+ ../include/netlink/addr.h ../include/netlink/data.h \
+ ../include/netlink/route/tc.h ../include/netlink/route/link.h \
+ ../include/netlink-private/object-api.h \
+ ../include/netlink-private/cache-api.h \
+ ../include/netlink-private/types.h ../include/netlink/route/qdisc.h \
+ ../include/netlink/route/rtnl.h ../include/netlink/route/route.h \
+ ../include/netlink/route/nexthop.h /usr/include/linux/in_route.h \
+ ../include/netlink/idiag/idiagnl.h ../include/netlink/netfilter/ct.h \
+ ../include/netlink-private/route/tc-api.h \
+ ../include/linux/tc_act/tc_mirred.h \
+ ../include/netlink-private/route/link/api.h
+
+/usr/include/sys/types.h:
+
+/c/opt/gcc-4.6.0/bin/../lib/gcc/sparc-unknown-linux-gnu/4.6.0/include-fixed/features.h:
+
+/usr/include/sys/cdefs.h:
+
+/usr/include/gnu/stubs.h:
+
+/usr/include/bits/types.h:
+
+/usr/include/bits/wordsize.h:
+
+/c/opt/gcc-4.6.0/bin/../lib/gcc/sparc-unknown-linux-gnu/4.6.0/include/stddef.h:
+
+/usr/include/bits/typesizes.h:
+
+/usr/include/time.h:
+
+/usr/include/endian.h:
+
+/usr/include/bits/endian.h:
+
+/usr/include/sys/select.h:
+
+/usr/include/bits/select.h:
+
+/usr/include/bits/sigset.h:
+
+/usr/include/bits/time.h:
+
+/usr/include/sys/sysmacros.h:
+
+/usr/include/bits/pthreadtypes.h:
+
+/usr/include/bits/sched.h:
+
+/usr/include/linux/types.h:
+
+/usr/include/linux/posix_types.h:
+
+/usr/include/linux/stddef.h:
+
+/usr/include/linux/compiler.h:
+
+/usr/include/asm/posix_types.h:
+
+/usr/include/asm/types.h:
+
+../include/netlink-private/netlink.h:
+
+/usr/include/stdio.h:
+
+/usr/include/libio.h:
+
+/usr/include/_G_config.h:
+
+/c/opt/gcc-4.6.0/bin/../lib/gcc/sparc-unknown-linux-gnu/4.6.0/include-fixed/wchar.h:
+
+/usr/include/bits/wchar.h:
+
+/usr/include/gconv.h:
+
+/c/opt/gcc-4.6.0/bin/../lib/gcc/sparc-unknown-linux-gnu/4.6.0/include/stdarg.h:
+
+/usr/include/bits/stdio_lim.h:
+
+/usr/include/bits/sys_errlist.h:
+
+/usr/include/bits/stdio.h:
+
+/usr/include/errno.h:
+
+/usr/include/bits/errno.h:
+
+/usr/include/linux/errno.h:
+
+/usr/include/asm/errno.h:
+
+/usr/include/asm-generic/errno-base.h:
+
+/usr/include/stdlib.h:
+
+/usr/include/bits/waitflags.h:
+
+/usr/include/bits/waitstatus.h:
+
+/usr/include/xlocale.h:
+
+/usr/include/alloca.h:
+
+/usr/include/string.h:
+
+/usr/include/bits/string.h:
+
+/c/opt/gcc-4.6.0/bin/../lib/gcc/sparc-unknown-linux-gnu/4.6.0/include-fixed/bits/string2.h:
+
+/usr/include/unistd.h:
+
+/usr/include/bits/posix_opt.h:
+
+/usr/include/bits/environments.h:
+
+/usr/include/bits/confname.h:
+
+/usr/include/getopt.h:
+
+/usr/include/fcntl.h:
+
+/usr/include/bits/fcntl.h:
+
+/c/opt/gcc-4.6.0/bin/../lib/gcc/sparc-unknown-linux-gnu/4.6.0/include-fixed/sys/stat.h:
+
+/usr/include/bits/stat.h:
+
+/usr/include/math.h:
+
+/c/opt/gcc-4.6.0/bin/../lib/gcc/sparc-unknown-linux-gnu/4.6.0/include-fixed/bits/huge_val.h:
+
+/usr/include/bits/nan.h:
+
+/c/opt/gcc-4.6.0/bin/../lib/gcc/sparc-unknown-linux-gnu/4.6.0/include-fixed/bits/mathdef.h:
+
+/usr/include/bits/mathcalls.h:
+
+/usr/include/bits/mathinline.h:
+
+/usr/include/ctype.h:
+
+/usr/include/sys/socket.h:
+
+/usr/include/sys/uio.h:
+
+/usr/include/bits/uio.h:
+
+/usr/include/bits/socket.h:
+
+/c/opt/gcc-4.6.0/bin/../lib/gcc/sparc-unknown-linux-gnu/4.6.0/include-fixed/limits.h:
+
+/c/opt/gcc-4.6.0/bin/../lib/gcc/sparc-unknown-linux-gnu/4.6.0/include-fixed/syslimits.h:
+
+/usr/include/limits.h:
+
+/usr/include/bits/posix1_lim.h:
+
+/usr/include/bits/local_lim.h:
+
+/usr/include/linux/limits.h:
+
+/usr/include/bits/posix2_lim.h:
+
+/usr/include/bits/xopen_lim.h:
+
+/usr/include/bits/sockaddr.h:
+
+/usr/include/asm/socket.h:
+
+/usr/include/asm/sockios.h:
+
+/usr/include/inttypes.h:
+
+/c/opt/gcc-4.6.0/bin/../lib/gcc/sparc-unknown-linux-gnu/4.6.0/include/stdint.h:
+
+/c/opt/gcc-4.6.0/bin/../lib/gcc/sparc-unknown-linux-gnu/4.6.0/include-fixed/stdint.h:
+
+/usr/include/assert.h:
+
+/usr/include/search.h:
+
+/usr/include/arpa/inet.h:
+
+/usr/include/netinet/in.h:
+
+/usr/include/bits/in.h:
+
+/usr/include/bits/byteswap.h:
+
+/usr/include/netdb.h:
+
+/usr/include/rpc/netdb.h:
+
+/usr/include/bits/siginfo.h:
+
+/usr/include/bits/netdb.h:
+
+defs.h:
+
+../include/linux/if.h:
+
+../include/linux/if_arp.h:
+
+/usr/include/linux/netdevice.h:
+
+../include/linux/if_ether.h:
+
+/usr/include/linux/if_packet.h:
+
+/usr/include/linux/ethtool.h:
+
+../include/linux/pkt_sched.h:
+
+../include/linux/pkt_cls.h:
+
+../include/linux/gen_stats.h:
+
+../include/linux/ip_mp_alg.h:
+
+/usr/include/linux/atm.h:
+
+/usr/include/linux/atmapi.h:
+
+/usr/include/linux/atmsap.h:
+
+/usr/include/linux/atmioc.h:
+
+/usr/include/asm/ioctl.h:
+
+../include/linux/ip.h:
+
+/usr/include/asm/byteorder.h:
+
+/usr/include/linux/byteorder/big_endian.h:
+
+/usr/include/linux/byteorder/swab.h:
+
+/usr/include/linux/byteorder/generic.h:
+
+../include/linux/ipv6.h:
+
+../include/linux/snmp.h:
+
+/usr/include/pthread.h:
+
+/usr/include/sched.h:
+
+/usr/include/signal.h:
+
+/usr/include/bits/initspin.h:
+
+/usr/include/bits/sigthread.h:
+
+../include/netlink/netlink.h:
+
+/usr/include/sys/poll.h:
+
+/usr/include/bits/poll.h:
+
+/usr/include/sys/time.h:
+
+../include/netlink/netlink-compat.h:
+
+../include/linux/netlink.h:
+
+/usr/include/linux/socket.h:
+
+../include/linux/rtnetlink.h:
+
+../include/linux/if_link.h:
+
+../include/linux/if_addr.h:
+
+../include/linux/neighbour.h:
+
+../include/linux/genetlink.h:
+
+../include/linux/netfilter/nfnetlink.h:
+
+../include/linux/netfilter/nfnetlink_compat.h:
+
+/usr/include/netinet/tcp.h:
+
+../include/netlink/version.h:
+
+../include/netlink/errno.h:
+
+../include/netlink/types.h:
+
+../include/netlink/handlers.h:
+
+../include/netlink/netlink-kernel.h:
+
+../include/netlink/socket.h:
+
+../include/netlink/object.h:
+
+../include/netlink/utils.h:
+
+../include/netlink/list.h:
+
+../include/netlink/cache.h:
+
+../include/netlink/msg.h:
+
+../include/netlink/attr.h:
+
+../include/netlink/addr.h:
+
+../include/netlink/data.h:
+
+../include/netlink/route/tc.h:
+
+../include/netlink/route/link.h:
+
+../include/netlink-private/object-api.h:
+
+../include/netlink-private/cache-api.h:
+
+../include/netlink-private/types.h:
+
+../include/netlink/route/qdisc.h:
+
+../include/netlink/route/rtnl.h:
+
+../include/netlink/route/route.h:
+
+../include/netlink/route/nexthop.h:
+
+/usr/include/linux/in_route.h:
+
+../include/netlink/idiag/idiagnl.h:
+
+../include/netlink/netfilter/ct.h:
+
+../include/netlink-private/route/tc-api.h:
+
+../include/linux/tc_act/tc_mirred.h:
+
+../include/netlink-private/route/link/api.h:

@@ -12,7 +12,14 @@
  * Copyright (c) 2012 Rich Fought <rich.fought@watchguard.com>
  */
 
+// #include <sys/types.h>
 #include <sys/types.h>
+#include <linux/types.h>
+typedef __u32 u32;
+typedef __u16 u16;
+typedef __u8 u8;
+typedef __u64 u64;
+typedef __u16 __sum16;
 #include <netinet/in.h>
 #include <linux/netfilter/nfnetlink_conntrack.h>
 #include <linux/netfilter/nf_conntrack_common.h>

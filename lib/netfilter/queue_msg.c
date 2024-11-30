@@ -17,7 +17,14 @@
  * @{
  */
 
+// #include <sys/types.h>
 #include <sys/types.h>
+#include <linux/types.h>
+typedef __u32 u32;
+typedef __u16 u16;
+typedef __u8 u8;
+typedef __u64 u64;
+typedef __u16 __sum16;
 #include <linux/netfilter/nfnetlink_queue.h>
 
 #include <netlink-private/netlink.h>

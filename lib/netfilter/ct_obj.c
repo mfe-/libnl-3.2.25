@@ -11,7 +11,15 @@
  * Copyright (c) 2007 Secure Computing Corporation
  */
 
-#include <sys/types.h>
+// #include <sys/types.h>
+// #include <sys/types.h>
+#include <sys/types.h>  // Include sys/types.h first
+#include <linux/types.h>
+typedef __u32 u32;
+typedef __u16 u16;
+typedef __u8 u8;
+typedef __u64 u64;
+typedef __u16 __sum16;
 #include <linux/netfilter/nfnetlink_conntrack.h>
 #include <linux/netfilter/nf_conntrack_common.h>
 #include <linux/netfilter/nf_conntrack_tcp.h>

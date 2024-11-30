@@ -1,3 +1,12 @@
+#include <sys/types.h>
+#include <linux/types.h>
+typedef __u32 u32;
+typedef __u16 u16;
+typedef __u8 u8;
+typedef __u64 u64;
+typedef __u16 __sum16;
+
+
 /*
  * lib/idiag/idiagnl_msg_obj.c Inet Diag Message Object
  *
@@ -481,13 +490,13 @@ static void idiag_msg_dump_stats(struct nl_object *obj, struct nl_dump_params *p
 				sizeof(buf)));
 	nl_dump(p, "\treordering: %d\n",
 			msg->idiag_tcpinfo.tcpi_reordering);
-	nl_dump(p, "\trcv rround trip time: %d\n",
-			msg->idiag_tcpinfo.tcpi_rcv_rtt);
-	nl_dump(p, "\treceive queue space: %s\n",
-			nl_size2str(msg->idiag_tcpinfo.tcpi_rcv_space, buf,
-				sizeof(buf)));
-	nl_dump(p, "\ttotal retransmits: %d\n",
-			msg->idiag_tcpinfo.tcpi_total_retrans);
+	// nl_dump(p, "\trcv rround trip time: %d\n",
+	// 		msg->idiag_tcpinfo.tcpi_rcv_rtt);
+	// nl_dump(p, "\treceive queue space: %s\n",
+	// 		nl_size2str(msg->idiag_tcpinfo.tcpi_rcv_space, buf,
+	// 			sizeof(buf)));
+	// nl_dump(p, "\ttotal retransmits: %d\n",
+	// 		msg->idiag_tcpinfo.tcpi_total_retrans);
 	nl_dump(p, "]\n");
 
 	if (msg->idiag_meminfo) {
